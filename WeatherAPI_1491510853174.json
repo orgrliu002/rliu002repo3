@@ -3,7 +3,7 @@
   "info": {
     "version": "1.0",
     "title": "WeatherAPI",
-    "x-lastModified": "Jan 25, 2017 09:34AM PST"
+    "x-lastModified": "2019-10-17T19:30:36.000Z"
   },
   "paths": {
     "/CityWeatherByZip/{ZipCode}": {
@@ -29,7 +29,8 @@
             "type": "string",
             "format": ""
           }
-        ]
+        ],
+        "operationId": "getCityWeatherByZip_ZipCode"
       }
     }
   },
